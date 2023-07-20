@@ -24,6 +24,7 @@ nav{
 .lo-go{
     padding-top: 10px;
     padding-left: 90px;
+    color: #c2a0a9;
     
 }
 .color{
@@ -332,6 +333,7 @@ gap: 5px;
     }
 
   }
+  
   .grid{
     padding-top: 40px;
     border:none;
@@ -378,6 +380,102 @@ gap: 5px;
         flex-direction: column;
     }
     .item{
-        flex-direction: column;
+  flex-direction: column;
     }
   }
+  .footerlogo{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .footer-container{
+    display: grid;
+    grid-template-columns: repeat(7, .3fr);
+    justify-content: space-between;
+    gap:2px;
+    font-size: 70%;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: burlywood;
+  }
+  .footer-container1{
+    display: grid;
+    grid-template-columns: repeat(5, .1fr);
+    justify-content: space-around;
+    gap:2px;
+    height: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap:0px;
+    font-size: 90%;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .footer-container2{
+    display: grid;
+    grid-template-columns: repeat(4, .1fr);
+    justify-content: space-around;
+    gap:2px;
+    height: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap:0px;
+    font-size: 40%;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size:small;
+    color: #dac3d0;
+
+  }
+  .copy{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 7px;
+    color: gray;
+    padding-top: 30px;
+  }
+  footer{
+    background-color:rgb(21, 32, 32);
+    padding-bottom: 80px;
+   
+  }
+  @media screen and (max-width: 576px){
+    footer{
+        flex-direction: column;}
+        .footerlogo{
+            flex-direction: column;
+        }
+        .grid{
+            flex-direction: column;
+
+        }
+        .copy{
+            flex-direction: column;
+        }
+        .footer-container{
+            flex-direction: column;
+        }
+        .footer-container1, .footer-container2{
+        flex-direction: column;
+        }
+    }
+    @media screen and (min-width: 576) and (max-width: 670){
+        footer{
+            flex-direction: column;}
+            .footerlogo{
+                flex-direction: column;
+            }
+            .grid{
+                flex-direction: column;
+    
+            }
+            .copy{
+                flex-direction: column;
+            }
+            .footer-container{
+                flex-direction: column;
+            }
+            .footer-container1, .footer-container2{
+            flex-direction: column;
+            }
+    }
