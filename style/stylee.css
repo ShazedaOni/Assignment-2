@@ -362,6 +362,7 @@ gap: 5px;
   .item:hover{
     cursor: pointer;
     background-color: #c2a0a9;
+    color:blanchedalmond;
     border: 10px;
     border-radius: 50px;
     border-bottom: 5px 2px;
