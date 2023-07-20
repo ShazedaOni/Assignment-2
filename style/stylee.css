@@ -332,3 +332,51 @@ gap: 5px;
     }
 
   }
+  .grid{
+    padding-top: 40px;
+    border:none;
+  }
+  .icon-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #eee9ec;
+    gap: 30px;
+    padding-top: 70px;
+  }
+  .item{
+    display: flex;
+    border: 1px ;
+    gap: 10px;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,.5fr);
+    background-color: #eee9ec;
+    padding-left: 110px;
+  }
+  .item:hover{
+    cursor: pointer;
+    background-color: #c2a0a9;
+    border: 10px;
+    border-radius: 50px;
+    border-bottom: 5px 2px;
+  }
+  @media screen and (max-width: 576px){
+    .grid{
+        flex-direction: column;
+    }
+    .icon-container{
+        flex-direction: column;
+    }
+    .grid-container{
+        flex-direction: column;
+    }
+    .item{
+        flex-direction: column;
+    }
+  }
