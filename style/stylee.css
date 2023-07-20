@@ -151,5 +151,60 @@ gap: 5px;
 
     }
 }
+.img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    gap: 10px;
+    justify-content: space-around
+    ;
+    padding: 30px;
+    border: 0px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    gap: 5px;
+}
+.online{
+    justify-content: center;
+    text-align: center;
+}
+.pa{
+    font-size: 55;
+}
 
+.caption{
+    font-size: 85%;
+color:rgb(59, 54, 54);
+gap: 5px;
+}
+.image-container:hover{
+ cursor: pointer;
+ background-color: #dac3d0;
+ border-radius: 10px;
+}
 
+@media screen and (max-width: 576px){
+    main{
+        padding: 50px;
+    }
+    section{
+        flex-direction: column;
+    }
+    .online{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img{
+        flex-direction: column;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .image-container:hover{
+        flex-direction: column;
+    }
+}
