@@ -1,0 +1,77 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: deeppink;
+    margin: 0;
+    border: 0;
+    background-color: white;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.logo{
+    display: flex;
+    gap: -20px;
+    
+}
+.lo-go{
+    padding-top: 10px;
+    padding-left: 90px;
+    
+}
+.color{
+    color: palevioletred;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+a:hover{
+    color: #F00044;
+}
+.game{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.nav-links{
+
+list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  padding-right: 50px;
+}
+.btn-primary{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(203, 194, 194) ;
+    border-radius: 5px;
+    gap: 20px;
+    align-items: center;
+   
+}
+.fa-brands{
+    color: rgb(113, 10, 10);
+}
+.fa-tiktok{
+    color: #F00044;
+}
+@media(max-width: 992px){
+    .logo, .lo-go, .btn-primary,
+    .game, .nav-links{
+
+    }
+
+}
