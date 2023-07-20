@@ -60,6 +60,8 @@ list-style: none;
     border-radius: 5px;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
+    font-size: 1.25rem;
    
 }
 .fa-brands{
@@ -71,7 +73,49 @@ list-style: none;
 @media(max-width: 992px){
     .logo, .lo-go, .btn-primary,
     .game, .nav-links{
-
+display: block;
     }
 
 }
+.banner{
+    background-image: url(../B8A2-Gamer-Zone/images/Group\ 14.png);
+    
+    background: cover;
+    justify-content: space-around;
+    display: flex;  
+  
+
+}
+.play{
+    padding-top: 170px;
+}
+.para{
+font-size: 85%;
+color:rgb(116, 114, 114);
+gap: 5px;
+
+}
+.goat{
+    font-size: 200%;
+    color: #F948B2;
+}
+.bttn{
+ background-color: #951f40;
+ border-radius: 15px;
+ color:aliceblue;
+ padding: 15px;
+ gap: 10px;
+ margin-left: 40px;
+ cursor: pointer;
+ font-size: 1.25rem;
+
+}
+.class{
+    background-color: rgb(57, 144, 144);
+    margin-left: 10px;
+}
+.gamer{
+    
+
+}
+
