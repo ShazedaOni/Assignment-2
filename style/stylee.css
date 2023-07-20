@@ -302,3 +302,33 @@ gap: 5px;
    border: 0;
    width:30%;
   }
+  @media screen and (max-width: 576px){
+    .new3{
+        flex-direction: column;
+    }
+    .new1{
+        flex-direction: column;
+    }
+    .bg{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+
+  }
+  @media screen and (min-width: 576) and (max-width: 670){
+    .new3{
+        flex-direction: column;
+    }
+    .new1{
+        flex-direction: column;
+    }
+    .bg{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+
+  }
