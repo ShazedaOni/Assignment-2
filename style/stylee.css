@@ -238,3 +238,67 @@ gap: 5px;
     }
 
 }
+@media screen and (min-width: 576) and (max-width: 670){
+    main{
+        padding: 50px;
+    }
+    section{
+        flex-direction: column;
+    }
+    .online{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img{
+        flex-direction: column;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .image-container:hover{
+       
+        flex-direction: column;
+    }
+    .watch-now-icon svg {
+        flex-direction: column;
+    }
+    .watch-now-icon:hover {
+        flex-direction: column;
+    }
+}
+.new3{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.bg{
+    margin: 0;
+    padding: 0;
+ 
+    
+}
+.new1
+{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f0f0f0;
+    max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);  
+  position: relative;
+  background-image: url('../B8A2-Gamer-Zone/images/Rectangle\ 55.png');
+}
+.small-image {
+   padding-right:300px;
+   padding-top: 300px;
+   height: 70%;
+   margin:0;
+   border: 0;
+   width:30%;
+  }
